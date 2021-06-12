@@ -1,0 +1,40 @@
+section.wallpaperAirpods .featuredVertical{
+    background: linear-gradient(244deg,#000 10%,transparent 90%);
+    width: inherit;
+    height: inherit;
+}
+
+section.wallpaperAirpods .featuredVertical .featuredHorizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(261deg,#000 20%,transparent 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    opacity: 0;
+    transition: ease-in .6s;
+}
+
+section.wallpaperAirpods .featuredVertical .featuredHorizontal:hover{
+    opacity: 1;
+}
+
+
+section.wallpaperAirpods .title h5, section.wallpaperAirpods .title h1{
+    color: #fff;
+}
+
+section.wallpaperAirpods .texto p{
+    color: rgb(184, 184, 184);
+}
+
+section.wallpaperAirpods .botoes a{
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:991px){
+    section.wallpaperAirpods .featuredVertical .featuredHorizontal{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,13 @@
+section.wallpaper h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+}
+
+section.wallpaper button{
+    padding: 10px 30px!important;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}

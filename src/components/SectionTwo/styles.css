@@ -1,0 +1,44 @@
+section.sectionTwo .number{
+    position: absolute;
+    top: 28%;
+    left: 50px;
+}
+
+section.sectionTwo .number, section.sectionTwo .titulo,section.sectionTwo .texto{
+    opacity: 0;
+    transition: ease-in .6s;
+    visibility: hidden;
+}
+
+section.sectionTwo:hover .number, section.sectionTwo:hover .titulo,section.sectionTwo:hover .texto{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+
+section.sectionTwo .number span{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+section.sectionTwo .titulo h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+section.sectionTwo .texto{
+    margin-top: 20px;
+}
+
+section.sectionTwo .texto p{
+    color: rgb(184, 184, 184);
+}
+
+@media screen and (max-width:991px){
+    section.sectionTwo .number, section.sectionTwo .titulo,section.sectionTwo .texto{
+        opacity: 1;
+        visibility: visible;
+    }
+}

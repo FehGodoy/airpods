@@ -1,0 +1,50 @@
+header nav{
+    padding: 20px 0px!important;
+    transition: ease-in .5s;
+}
+
+header nav .navbar-nav a{
+    color: rgb(204, 204, 204)!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+header nav .navbar-brand{
+    color: #fff!important;
+}
+
+header nav .navbar-nav a{
+    margin: 0px 15px;
+}
+
+header nav .socialMedia ul{
+list-style: none;
+padding-left: 0;
+}
+
+header nav .socialMedia ul li{
+    margin: 0px 10px;
+}
+
+header nav.active{
+    background-color: rgba(29,29,31,0.72);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+header nav .socialMedia ul li a{
+    color: #fff;
+}
+
+header nav button{
+    background-color: #fff!important;
+    border-radius: 0!important;
+}
+
+@media screen and (max-width:991px){
+    header nav .socialMedia{
+        display: none;
+    }
+    #basic-navbar-nav{
+        text-align: center;
+    }
+}
