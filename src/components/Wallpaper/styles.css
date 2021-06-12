@@ -14,6 +14,6 @@ section.wallpaper button{
 
 @media screen and (max-width:991px){
     section.wallpaper{
-        background-attachment: scroll;
+        background-attachment: scroll!important;
     }
 }
