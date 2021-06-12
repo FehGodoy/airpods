@@ -11,3 +11,9 @@ section.wallpaper button{
     margin-top: 40px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width:991px){
+    section.wallpaper{
+        background-attachment: scroll;
+    }
+}

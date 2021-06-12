@@ -48,6 +48,7 @@ section.sectionFour .texto p{
 
     section.sectionFour{
         height: auto;
+        margin-top: 120px;
     }
     section.sectionFour .number, section.sectionFour .titulo, section.sectionFour .texto{
         opacity: 1;
