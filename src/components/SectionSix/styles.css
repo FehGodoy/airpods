@@ -10,14 +10,11 @@ section.wallpaperAirpods .featuredVertical .featuredHorizontal{
     background: linear-gradient(261deg,#000 20%,transparent 60%);
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    opacity: 0;
+    justify-content: center;    
     transition: ease-in .6s;
 }
 
-section.wallpaperAirpods .featuredVertical .featuredHorizontal:hover{
-    opacity: 1;
-}
+
 
 
 section.wallpaperAirpods .title h5, section.wallpaperAirpods .title h1{
@@ -34,7 +31,5 @@ section.wallpaperAirpods .botoes a{
 }
 
 @media screen and (max-width:991px){
-    section.wallpaperAirpods .featuredVertical .featuredHorizontal{
-        opacity: 1;
-    }
+    
 }

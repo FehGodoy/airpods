@@ -9,18 +9,6 @@ section.sectionFour .number{
     left: 50px;
 }
 
-section.sectionFour .number, section.sectionFour .titulo,section.sectionFour .texto{
-    opacity: 0;
-    transition: ease-in .6s;
-    visibility: hidden;
-}
-
-section.sectionFour:hover .number, section.sectionFour:hover .titulo,section.sectionFour:hover .texto{
-    opacity: 1;
-    visibility: visible;
-}
-
-
 section.sectionFour .number span{
     font-size: 45px;
     font-weight: 700;
@@ -49,11 +37,7 @@ section.sectionFour .texto p{
     section.sectionFour{
         height: auto;
         margin-top: 125px;
-    }
-    section.sectionFour .number, section.sectionFour .titulo, section.sectionFour .texto{
-        opacity: 1;
-        visibility: visible;
-    }
+    }   
 
     section.sectionFour .number {        
         bottom: 50%;

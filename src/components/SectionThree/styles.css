@@ -9,18 +9,6 @@ section.sectionThree .number{
     right: 50px;
 }
 
-section.sectionThree .number, section.sectionThree .titulo,section.sectionThree .texto{
-    opacity: 0;
-    transition: ease-in .6s;
-    visibility: hidden;
-}
-
-section.sectionThree:hover .number, section.sectionThree:hover .titulo,section.sectionThree:hover .texto{
-    opacity: 1;
-    visibility: visible;
-}
-
-
 section.sectionThree .number span{
     font-size: 45px;
     font-weight: 700;
